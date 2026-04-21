@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/xbq/x_muduo/build",
+  "command": "/usr/bin/g++  -I/home/xbq/x_muduo/src -g -std=c++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/x_muduo.dir/src/Channel.cc.o -c /home/xbq/x_muduo/src/Channel.cc",
+  "file": "/home/xbq/x_muduo/src/Channel.cc",
+  "output": "CMakeFiles/x_muduo.dir/src/Channel.cc.o"
+},
+{
+  "directory": "/home/xbq/x_muduo/build",
+  "command": "/usr/bin/g++  -I/home/xbq/x_muduo/src -g -std=c++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/x_muduo.dir/src/Socket.cc.o -c /home/xbq/x_muduo/src/Socket.cc",
+  "file": "/home/xbq/x_muduo/src/Socket.cc",
+  "output": "CMakeFiles/x_muduo.dir/src/Socket.cc.o"
+},
+{
+  "directory": "/home/xbq/x_muduo/build",
+  "command": "/usr/bin/g++  -I/home/xbq/x_muduo/src -g -std=c++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/x_muduo.dir/src/TcpConnection.cc.o -c /home/xbq/x_muduo/src/TcpConnection.cc",
+  "file": "/home/xbq/x_muduo/src/TcpConnection.cc",
+  "output": "CMakeFiles/x_muduo.dir/src/TcpConnection.cc.o"
+},
+{
+  "directory": "/home/xbq/x_muduo/build",
+  "command": "/usr/bin/g++  -I/home/xbq/x_muduo/src -g -std=c++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/x_muduo.dir/src/logger.cc.o -c /home/xbq/x_muduo/src/logger.cc",
+  "file": "/home/xbq/x_muduo/src/logger.cc",
+  "output": "CMakeFiles/x_muduo.dir/src/logger.cc.o"
+}
+]

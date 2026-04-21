@@ -6,11 +6,12 @@
 #include <functional>
 #include <memory>
 #include <string>
+#include "noncopyable.h"
 
 class TcpConnection;
 using TcpConnectionPtr = std::shared_ptr<TcpConnection>;
 
-class TcpConnection : public std::enable_shared_from_this<TcpConnection> {
+class TcpConnection : public std::enable_shared_from_this<TcpConnection>,nocopyable {
  public:
   enum StateE {
     kConnecting = 0,
@@ -29,10 +30,7 @@ class TcpConnection : public std::enable_shared_from_this<TcpConnection> {
   TcpConnection(int sockfd, const std::string& name, const sockaddr_in& localAddr,
                 const sockaddr_in& peerAddr);
   ~TcpConnection();
-
-  TcpConnection(const TcpConnection&) = delete;
-  TcpConnection& operator=(const TcpConnection&) = delete;
-
+  
   int fd() const;
   const std::string& name() const;
   StateE state() const;

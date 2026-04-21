@@ -1,0 +1,2 @@
+/usr/bin/ar qc libx_muduo.a CMakeFiles/x_muduo.dir/src/Channel.cc.o CMakeFiles/x_muduo.dir/src/Socket.cc.o CMakeFiles/x_muduo.dir/src/TcpConnection.cc.o CMakeFiles/x_muduo.dir/src/logger.cc.o
+/usr/bin/ranlib libx_muduo.a
