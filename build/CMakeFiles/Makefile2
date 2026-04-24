@@ -81,12 +81,12 @@ clean: CMakeFiles/x_muduo.dir/clean
 CMakeFiles/x_muduo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xbq/x_muduo/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target x_muduo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xbq/x_muduo/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target x_muduo"
 .PHONY : CMakeFiles/x_muduo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/x_muduo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xbq/x_muduo/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xbq/x_muduo/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/x_muduo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xbq/x_muduo/build/CMakeFiles 0
 .PHONY : CMakeFiles/x_muduo.dir/rule

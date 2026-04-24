@@ -6,7 +6,7 @@
 #include <functional>
 #include <memory>
 #include <string>
-#include "noncopyable.h"
+#include "nocopyable.h"
 
 class TcpConnection;
 using TcpConnectionPtr = std::shared_ptr<TcpConnection>;

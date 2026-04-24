@@ -1,6 +1,6 @@
 CMakeFiles/x_muduo.dir/src/Channel.cc.o: /home/xbq/x_muduo/src/Channel.cc \
  /usr/include/stdc-predef.h /home/xbq/x_muduo/src/Channel.h \
- /home/xbq/x_muduo/src/noncopyable.h /usr/include/c++/13/functional \
+ /home/xbq/x_muduo/src/nocopyable.h /usr/include/c++/13/functional \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -143,4 +143,6 @@ CMakeFiles/x_muduo.dir/src/Channel.cc.o: /home/xbq/x_muduo/src/Channel.cc \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h
+ /usr/include/c++/13/pstl/execution_defs.h /usr/include/poll.h \
+ /usr/include/x86_64-linux-gnu/sys/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/poll.h

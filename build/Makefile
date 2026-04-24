@@ -154,6 +154,54 @@ src/Channel.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/src/Channel.cc.s
 .PHONY : src/Channel.cc.s
 
+src/EventLoop.o: src/EventLoop.cc.o
+.PHONY : src/EventLoop.o
+
+# target to build an object file
+src/EventLoop.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/src/EventLoop.cc.o
+.PHONY : src/EventLoop.cc.o
+
+src/EventLoop.i: src/EventLoop.cc.i
+.PHONY : src/EventLoop.i
+
+# target to preprocess a source file
+src/EventLoop.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/src/EventLoop.cc.i
+.PHONY : src/EventLoop.cc.i
+
+src/EventLoop.s: src/EventLoop.cc.s
+.PHONY : src/EventLoop.s
+
+# target to generate assembly for a file
+src/EventLoop.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/src/EventLoop.cc.s
+.PHONY : src/EventLoop.cc.s
+
+src/Poller.o: src/Poller.cc.o
+.PHONY : src/Poller.o
+
+# target to build an object file
+src/Poller.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/src/Poller.cc.o
+.PHONY : src/Poller.cc.o
+
+src/Poller.i: src/Poller.cc.i
+.PHONY : src/Poller.i
+
+# target to preprocess a source file
+src/Poller.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/src/Poller.cc.i
+.PHONY : src/Poller.cc.i
+
+src/Poller.s: src/Poller.cc.s
+.PHONY : src/Poller.s
+
+# target to generate assembly for a file
+src/Poller.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/x_muduo.dir/build.make CMakeFiles/x_muduo.dir/src/Poller.cc.s
+.PHONY : src/Poller.cc.s
+
 src/Socket.o: src/Socket.cc.o
 .PHONY : src/Socket.o
 
@@ -238,6 +286,12 @@ help:
 	@echo "... src/Channel.o"
 	@echo "... src/Channel.i"
 	@echo "... src/Channel.s"
+	@echo "... src/EventLoop.o"
+	@echo "... src/EventLoop.i"
+	@echo "... src/EventLoop.s"
+	@echo "... src/Poller.o"
+	@echo "... src/Poller.i"
+	@echo "... src/Poller.s"
 	@echo "... src/Socket.o"
 	@echo "... src/Socket.i"
 	@echo "... src/Socket.s"

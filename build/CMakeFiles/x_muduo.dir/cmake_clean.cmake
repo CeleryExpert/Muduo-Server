@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/x_muduo.dir/src/Channel.cc.o"
   "CMakeFiles/x_muduo.dir/src/Channel.cc.o.d"
+  "CMakeFiles/x_muduo.dir/src/EventLoop.cc.o"
+  "CMakeFiles/x_muduo.dir/src/EventLoop.cc.o.d"
+  "CMakeFiles/x_muduo.dir/src/Poller.cc.o"
+  "CMakeFiles/x_muduo.dir/src/Poller.cc.o.d"
   "CMakeFiles/x_muduo.dir/src/Socket.cc.o"
   "CMakeFiles/x_muduo.dir/src/Socket.cc.o.d"
   "CMakeFiles/x_muduo.dir/src/TcpConnection.cc.o"

@@ -1,11 +1,11 @@
 #pragma once
-#include "noncopyable.h"
+#include "nocopyable.h"
 #include <functional>
 #include <memory>
 
 class EventLoop;
 class Timestamp;
-class Channel
+class Channel:nocopyable
 {
 public:
     using EventCallBack = std::function<void()>;
@@ -28,6 +28,18 @@ public:
     void setErrorCallBack(EventCallBack cb)
     {
         errorCallBack_ = std::move(cb);
+    }
+
+    void setRevents(int Revents){
+        revent_ = Revents;
+    }
+
+    int getRevents() const{
+        return revent_;
+    }
+
+    int getFd() const{
+        return fd_;
     }
 
     void tie(const std::shared_ptr<void> &);
@@ -54,4 +66,5 @@ private:
     bool tied_;
     bool eventHandling_;
     bool addedtoLoop_;
+    int index_;
 };

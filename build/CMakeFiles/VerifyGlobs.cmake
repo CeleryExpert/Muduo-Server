@@ -6,6 +6,8 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/xbq/x_muduo/src/*.cc")
 set(OLD_GLOB
   "/home/xbq/x_muduo/src/Channel.cc"
+  "/home/xbq/x_muduo/src/EventLoop.cc"
+  "/home/xbq/x_muduo/src/Poller.cc"
   "/home/xbq/x_muduo/src/Socket.cc"
   "/home/xbq/x_muduo/src/TcpConnection.cc"
   "/home/xbq/x_muduo/src/logger.cc"
